@@ -276,9 +276,9 @@ export const DATA = {
   ],
   hackathons: [
     {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      title: "Mobile UI/UX Competition",
+      dates: "Maret 15th - 16th, 2025",
+      location: "Universitas Atma Jaya, Yogyakarta",
       description:
         "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
       image:
@@ -287,9 +287,9 @@ export const DATA = {
       links: [],
     },
     {
-      title: "Hack The North",
-      dates: "September 14th - 16th, 2018",
-      location: "Waterloo, Ontario",
+      title: "UI/UX Amicta",
+      dates: "July 24th - Aug 4th, 2025",
+      location: "Universitas Amikom, Yogyakarta",
       description:
         "Developed a mobile application which delivers university campus wide events in real time to all students.",
       image:
@@ -298,9 +298,9 @@ export const DATA = {
       links: [],
     },
     {
-      title: "FirstNet Public Safety Hackathon",
-      dates: "March 23rd - 24th, 2018",
-      location: "San Francisco, California",
+      title: "FE & BE Dicoding Academy",
+      dates: "Jan - July, 2025",
+      location: "Dicoding Academy Indonesia, Bandung",
       description:
         "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
       icon: "public",
@@ -309,9 +309,9 @@ export const DATA = {
       links: [],
     },
     {
-      title: "DeveloperWeek Hackathon",
-      dates: "February 3rd - 4th, 2018",
-      location: "San Francisco, California",
+      title: "Web Design TechnoVersary",
+      dates: "Nov - Dec, 2025",
+      location: "Universitas Kuningan, Jawa Barat",
       description:
         "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
       image:
@@ -320,7 +320,7 @@ export const DATA = {
         {
           title: "Github",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
+          href: "https://github.com/fauziadam1/webdesign_SIHIJAU_diesnatalis25",
         },
       ],
     },
