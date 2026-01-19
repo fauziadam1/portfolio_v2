@@ -27,7 +27,7 @@ export default function Page() {
                 text={`Hi, I'm ${DATA.name.split(" ")[0]}`}
               />
               <BlurFadeText
-                className="text-muted-foreground max-w-[600px] md:text-lg lg:text-xl"
+                className="text-muted-foreground max-w-120 md:text-lg lg:text-xl"
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
@@ -55,7 +55,7 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
-      <section id="work">
+      {/* <section id="work">
         <div className="flex min-h-0 flex-col gap-y-6">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
             <h2 className="text-xl font-bold">Work Experience</h2>
@@ -64,7 +64,7 @@ export default function Page() {
             <WorkSection />
           </BlurFade>
         </div>
-      </section>
+      </section> */}
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-6">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
