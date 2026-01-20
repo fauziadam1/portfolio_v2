@@ -15,7 +15,7 @@ export const DATA = {
   initials: "FA",
   url: "https://dillion.io",
   location: "Yogyakarta, Sleman",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "",
   description:
     "Student want to be Programmer and UI/UX Designer. I love make beautiful and perfect website. Currently I am learning about PHP and Laravel framework.",
   summary:
@@ -36,8 +36,8 @@ export const DATA = {
     // { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "fauziadam0811@gmail.com",
-    tel: "+6285225623906",
+    email: "",
+    tel: "",
     social: {
       GitHub: {
         name: "GitHub",
