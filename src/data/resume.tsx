@@ -8,6 +8,7 @@ import { Postgresql } from "@/components/ui/svgs/postgresql";
 import { Express } from "@/components/ui/svgs/express";
 import { Figma } from "@/components/ui/svgs/figma";
 import { title } from "node:process";
+import { Tailwind } from "@/components/ui/svgs/tailwind";
 
 export const DATA = {
   name: "Fauzi Adam",
@@ -27,6 +28,7 @@ export const DATA = {
     { name: "Node.js", icon: Nodejs },
     { name: "Postgres", icon: Postgresql },
     { name: "Express", icon: Express },
+    { name: "Tailwindcss", icon: Tailwind },
     { name: "Figma", icon: Figma },
   ],
   navbar: [
