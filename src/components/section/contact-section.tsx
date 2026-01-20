@@ -26,12 +26,12 @@ export default function ContactSection() {
         <p className="mx-auto max-w-lg text-muted-foreground text-balance">
           Want to chat? Just shoot me a dm{" "}
           <Link
-            href={DATA.contact.social.email.url}
+            href={DATA.contact.social.Instagram.url}
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:underline underline-offset-4 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-sm"
           >
-            with a direct question on Email
+            with a direct question on Instagram
           </Link>{" "}
           and I&apos;ll respond whenever I can. I will ignore all
           soliciting.

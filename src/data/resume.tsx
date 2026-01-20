@@ -45,7 +45,7 @@ export const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/fauzi-adam-715b10335/",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -59,10 +59,10 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "",
+        url: "https://mail.google.com/mail/?view=cm&fs=1&to=fauziadam0811@gmail.com&su=Halo&body=Halo Fauzi",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -158,102 +158,91 @@ export const DATA = {
       dates: "July 2025 - Aug 2025",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "[Amikom University's](https://home.amikom.ac.id/) UI/UX competition focused on education. My team decided to create an e-learning mobile app. We completed the design in three days and won 1st place.",
       technologies: [
         "Figma",
       ],
       links: [
         {
           type: "Figma",
-          href: "https://chatcollect.com",
+          href: "https://www.figma.com/design/HEqGuqYexRnQ4q5Ykga9gD/Educafy?node-id=0-1&t=NYBWtdTmz4mZ2CBF-1",
           icon: <Icons.figma className="size-3" />,
+        },
+        {
+          type: "Certificate",
+          href: "https://llm.report",
+          icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "/educafy.jpg",
       video: "",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "Bank Sampah",
+      href: "https://banksampahsihijau.vercel.app/user",
+      dates: "Nov 2025 - Dec 2025",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "An environmental themed website that my team created to enter a web design competition from [Kuningan University](https://uniku.ac.id/)",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://banksampahsihijau.vercel.app/user",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/fauziadam1/webdesign_SIHIJAU_diesnatalis25",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/banksampah.jpg",
+      video: "",
     },
     {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
+      title: "Soul Space",
+      href: "https://www.figma.com/design/SA4n6Y9sozSaHtGZlbLMcr/UXcel---UI-UX-Kesehatan-Mental?node-id=457-975&t=MhI4m5rFqs2R0Ex7-1",
+      dates: "Feb 2025 - Maret 2025",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Mobile UI/UX Competition (MUC) held by [Atma Jaya University](https://uajy.ac.id/). My friend and I worked on this design for 2 weeks until we passed the final.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "Figma"
       ],
       links: [
         {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
+          type: "Figma",
+          href: "https://www.figma.com/design/SA4n6Y9sozSaHtGZlbLMcr/UXcel---UI-UX-Kesehatan-Mental?node-id=457-975&t=MhI4m5rFqs2R0Ex7-1",
+          icon: <Icons.figma className="size-3" />,
         },
         {
-          type: "Source",
+          type: "Certificate",
           href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
+          icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/soulspace.jpg",
+      video: "",
     },
     {
-      title: "Automatic Chat",
+      title: "Smith Origin",
       href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      dates: "Aug 2025 - Jan 2026",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "My team's Teaching Factory project was to create an e-commerce website focused on selling gaming gear for our client, Smithorigin. It took us six months to complete the website.",
       technologies: [
         "Next.js",
         "Typescript",
         "PostgreSQL",
         "Prisma",
         "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "ExpressJs",
       ],
       links: [
         {
@@ -261,22 +250,27 @@ export const DATA = {
           href: "https://automatic.chat",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/fauziadam1/smithorigin-website",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
       image: "",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "",
     },
   ],
   hackathons: [
     {
-      title: "Mobile UI/UX Competition (Finalis)",
+      title: "Mobile UI/UX Competition (Finalist)",
       dates: "Maret 15th - 16th, 2025",
       location: "Universitas Atma Jaya, Yogyakarta",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+        "Competition in the field of mobile UI/UX. My friend and I took part in this competition until we made it to the top 10.",
       image:
         "/MUC.jpg",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+      mlh: "",
       links: [
         {
           title: "Figma",
@@ -287,10 +281,10 @@ export const DATA = {
     },
     {
       title: "UI/UX Amicta (1st Place)",
-      dates: "July 24th - Aug 4th, 2025",
+      dates: "July - Aug, 2025",
       location: "Universitas Amikom, Yogyakarta",
       description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
+        "Another competition that I participated in. My 2 friends and I participated in a bootcamp and competition until we won 1st place.",
       image:
         "/amicta.jpg",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
@@ -307,7 +301,7 @@ export const DATA = {
       dates: "Jan - July, 2025",
       location: "Dicoding Academy Indonesia, Bandung",
       description:
-        "Developed a mobile application which communcicates a victims medical data from inside an ambulance to doctors at hospital.",
+        "I got a scholarship from the DBS Foundation to attend Coding Camp and I took frontend and backend courses.",
       icon: "public",
       image:
         "/dicoding.jpg",
@@ -324,7 +318,7 @@ export const DATA = {
       dates: "Nov - Dec, 2025",
       location: "Universitas Kuningan, Jawa Barat",
       description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
+        "I tried to enter a web design competition with two of my friends. I learned how to create a functional website and teamwork.",
       image:
         "/techno.jpg",
       links: [
