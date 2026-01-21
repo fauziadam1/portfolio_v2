@@ -172,7 +172,7 @@ export const DATA = {
         },
         {
           type: "Certificate",
-          href: "https://llm.report",
+          href: "/Sertifikat AMICTA 2025_Bootcamp dan Lomba UI_UX_Fauzi Adam.pdf",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -224,7 +224,7 @@ export const DATA = {
         },
         {
           type: "Certificate",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "/Fauzi Adam.pdf",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -279,6 +279,11 @@ export const DATA = {
           icon: <Icons.figma className="h-4 w-4" />,
           href: "https://www.figma.com/design/SA4n6Y9sozSaHtGZlbLMcr/UXcel---UI-UX-Kesehatan-Mental?node-id=0-1&t=OK7JObj48gKEEbrA-1",
         },
+        {
+          title: "Certificate",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "/Fauzi Adam.pdf",
+        },
       ],
     },
     {
@@ -296,6 +301,11 @@ export const DATA = {
           icon: <Icons.figma className="h-4 w-4" />,
           href: "https://www.figma.com/design/HEqGuqYexRnQ4q5Ykga9gD/Educafy?node-id=0-1&t=umiMGt9imcrjZ5ks-1",
         },
+        {
+          title: "Certificate",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "/Sertifikat AMICTA 2025_Bootcamp dan Lomba UI_UX_Fauzi Adam.pdf",
+        }
       ],
     },
     {
