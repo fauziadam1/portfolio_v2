@@ -9,6 +9,11 @@ import { Express } from "@/components/ui/svgs/express";
 import { Figma } from "@/components/ui/svgs/figma";
 import { title } from "node:process";
 import { Tailwind } from "@/components/ui/svgs/tailwind";
+import { Javascript } from "@/components/ui/svgs/javascript";
+import { Php } from "@/components/ui/svgs/php";
+import { Laravel } from "@/components/ui/svgs/laravel";
+import { Postman } from "@/components/ui/svgs/postman";
+import { MySql } from "@/components/ui/svgs/mysql";
 
 export const DATA = {
   name: "Fauzi Adam",
@@ -24,12 +29,17 @@ export const DATA = {
   skills: [
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
+    { name: "Laravel", icon: Laravel },
     { name: "Typescript", icon: Typescript },
+    { name: "Javascript", icon: Javascript },
+    { name: "PHP", icon: Php },
     { name: "Node.js", icon: Nodejs },
     { name: "Postgres", icon: Postgresql },
+    { name: "MySql", icon: MySql },
     { name: "Express", icon: Express },
     { name: "Tailwindcss", icon: Tailwind },
     { name: "Figma", icon: Figma },
+    { name: "Postman", icon: Postman },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -339,6 +349,22 @@ export const DATA = {
           icon: <Icons.github className="h-4 w-4" />,
           href: "https://github.com/fauziadam1/webdesign_SIHIJAU_diesnatalis25",
         },
+      ],
+    },
+    {
+      title: "LKS Web Technologies Tingkat Provinsi Yogyakarta",
+      dates: "7-8 April, 2026",
+      location: "SMK Negeri 3 Yogyakarta",
+      description:
+        "I learned a lot about websites in depth from my seniors and had a memorable experience.",
+      image:
+        "/dikpora.png",
+      links: [
+        {
+          title: "Certificate",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://devpost.com/software/my6footprint",
+        }
       ],
     },
   ],
