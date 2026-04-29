@@ -363,7 +363,7 @@ export const DATA = {
         {
           title: "Certificate",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/my6footprint",
+          href: "/CertiLKS.pdf",
         }
       ],
     },

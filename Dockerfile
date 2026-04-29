@@ -40,3 +40,21 @@ USER nextjs
 EXPOSE 3001
 
 CMD ["node", "server.js"]
+
+
+docker run -d \
+  --name portfolio \
+  --restart unless-stopped \
+  -p 3001:3001 \
+  -e NODE_ENV=production \
+  ghcr.io/fauziadam1/portfolio_v2:sha-965eba5
+
+
+docker run -d \
+  --name portfolio \
+  --restart unless-stopped \
+  -p 3001:3000 \
+  -e NODE_ENV=production \
+  -e PORT=3000 \
+  -e HOSTNAME=0.0.0.0 \
+  ghcr.io/fauziadam1/portfolio_v2:sha-965eba5
