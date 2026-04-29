@@ -331,7 +331,7 @@ export const DATA = {
         {
           title: "Dicoding",
           icon: <Icons.globe className="h-4 w-4" />,
-          href: "https://devpost.com/software/my6footprint",
+          href: "https://www.dicoding.com/",
         }
       ],
     },
