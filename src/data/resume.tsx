@@ -352,7 +352,7 @@ export const DATA = {
       ],
     },
     {
-      title: "LKS Web Technologies Tingkat Provinsi Yogyakarta",
+      title: "LKS Web Technologies Tingkat Provinsi Yogyakarta (1st Place)",
       dates: "7-8 April, 2026",
       location: "SMK Negeri 3 Yogyakarta",
       description:
