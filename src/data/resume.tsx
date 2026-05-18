@@ -24,7 +24,7 @@ export const DATA = {
   description:
     "Student want to be Programmer and UI/UX Designer. I love make beautiful and perfect website. Currently I am learning about PHP and Laravel framework.",
   summary:
-    "Currently attending SMK Negeri 2 Yogyakarta as a 12th-grade student majoring in Sistem Informasi Jaringan dan Aplikasi (SIJA), which focuses on building, managing, and securing computer networks, as well as developing software applications. Proficient in frontend technologies such as HTML, CSS, React, Next.js, and Tailwind CSS for creating responsive user interfaces, and backend technologies like Node.js, Express.js for building servers and APIs, with Postgresql for database management.",
+    "Currently attending [SMK Negeri 2 Yogyakarta](https://www.smk2-yk.sch.id/) as a 12th-grade student majoring in Sistem Informasi Jaringan dan Aplikasi (SIJA), which focuses on building, managing, and securing computer networks, as well as developing software applications. Proficient in frontend technologies such as HTML, CSS, [React](https://react.dev/), [Next.js](https://nextjs.org/), and [Tailwind CSS](http://tailwindcss.com/) for creating responsive user interfaces, and backend technologies like [Laravel](https://laravel.com/) for building servers and APIs, with Postgresql for database management.",
   avatarUrl: "/me.jpg",
   skills: [
     { name: "React", icon: ReactLight },
@@ -82,7 +82,7 @@ export const DATA = {
   work: [
     {
       company: "Atomic Finance",
-      href: "https://atomic.finance", 
+      href: "https://atomic.finance",
       badges: [],
       location: "Remote",
       title: "Bitcoin Protocol Engineer",
@@ -161,7 +161,7 @@ export const DATA = {
       logoUrl: "/smk.png",
       start: "2023",
       end: "2027",
-    }
+    },
   ],
   projects: [
     {
@@ -171,9 +171,7 @@ export const DATA = {
       active: true,
       description:
         "[Amikom University's](https://home.amikom.ac.id/) UI/UX competition focused on education. My team decided to create an e-learning mobile app. We completed the design in three days and won 1st place.",
-      technologies: [
-        "Figma",
-      ],
+      technologies: ["Figma"],
       links: [
         {
           type: "Figma",
@@ -196,11 +194,7 @@ export const DATA = {
       active: true,
       description:
         "An environmental themed website that my team created to enter a web design competition from [Kuningan University](https://uniku.ac.id/)",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-      ],
+      technologies: ["Next.js", "Typescript", "TailwindCSS"],
       links: [
         {
           type: "Website",
@@ -223,9 +217,7 @@ export const DATA = {
       active: true,
       description:
         "Mobile UI/UX Competition (MUC) held by [Atma Jaya University](https://uajy.ac.id/). My friend and I worked on this design for 2 weeks until we passed the final.",
-      technologies: [
-        "Figma"
-      ],
+      technologies: ["Figma"],
       links: [
         {
           type: "Figma",
@@ -269,8 +261,7 @@ export const DATA = {
         },
       ],
       image: "/smithorigin.jpg",
-      video:
-        "",
+      video: "",
     },
   ],
   hackathons: [
@@ -280,8 +271,7 @@ export const DATA = {
       location: "Universitas Atma Jaya, Yogyakarta",
       description:
         "Competition in the field of mobile UI/UX. My friend and I took part in this competition until we made it to the top 10.",
-      image:
-        "/MUC.jpg",
+      image: "/MUC.jpg",
       mlh: "",
       links: [
         {
@@ -302,8 +292,7 @@ export const DATA = {
       location: "Universitas Amikom, Yogyakarta",
       description:
         "Another competition that I participated in. My 2 friends and I participated in a bootcamp and competition until we won 1st place.",
-      image:
-        "/amicta.jpg",
+      image: "/amicta.jpg",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
       links: [
         {
@@ -315,7 +304,7 @@ export const DATA = {
           title: "Certificate",
           icon: <Icons.globe className="h-4 w-4" />,
           href: "/Sertifikat AMICTA 2025_Bootcamp dan Lomba UI_UX_Fauzi Adam.pdf",
-        }
+        },
       ],
     },
     {
@@ -325,14 +314,13 @@ export const DATA = {
       description:
         "I got a scholarship from the DBS Foundation to attend Coding Camp and I took frontend and backend courses.",
       icon: "public",
-      image:
-        "/dicoding.jpg",
+      image: "/dicoding.jpg",
       links: [
         {
           title: "Dicoding",
           icon: <Icons.globe className="h-4 w-4" />,
           href: "https://www.dicoding.com/",
-        }
+        },
       ],
     },
     {
@@ -341,8 +329,7 @@ export const DATA = {
       location: "Universitas Kuningan, Jawa Barat",
       description:
         "I tried to enter a web design competition with two of my friends. I learned how to create a functional website and teamwork.",
-      image:
-        "/techno.jpg",
+      image: "/techno.jpg",
       links: [
         {
           title: "Github",
@@ -357,14 +344,13 @@ export const DATA = {
       location: "SMK Negeri 3 Yogyakarta",
       description:
         "I learned a lot about websites in depth from my seniors and had a memorable experience.",
-      image:
-        "/dikpora.png",
+      image: "/dikpora.png",
       links: [
         {
           title: "Certificate",
           icon: <Icons.globe className="h-4 w-4" />,
           href: "/CertiLKS.pdf",
-        }
+        },
       ],
     },
   ],
