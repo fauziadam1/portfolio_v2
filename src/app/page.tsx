@@ -46,9 +46,9 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
-              <BlurFade delay={BLUR_FADE_DELAY} >
+              <BlurFade delay={BLUR_FADE_DELAY}>
                 <a href="/CV_Fauzi Adam.pdf" download="CV_Fauzi Adam.pdf">
-                  <RainbowButton variant="outline" className="w-fit">
+                  <RainbowButton variant="outline" className="w-fit rounded-xl">
                     My CV <Download />
                   </RainbowButton>
                 </a>

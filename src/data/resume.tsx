@@ -14,6 +14,14 @@ import { Php } from "@/components/ui/svgs/php";
 import { Laravel } from "@/components/ui/svgs/laravel";
 import { Postman } from "@/components/ui/svgs/postman";
 import { MySql } from "@/components/ui/svgs/mysql";
+import { Vue } from "@/components/ui/svgs/vue";
+import { Vercel } from "@/components/ui/svgs/vercel";
+import { html } from "@/components/ui/svgs/html";
+import { Github } from "@/components/ui/svgs/github";
+import { Gitlab } from "@/components/ui/svgs/gitlab";
+import { CSS } from "@/components/ui/svgs/css";
+import { Notion } from "@/components/ui/svgs/notion";
+import { Framer } from "@/components/ui/svgs/framer";
 
 export const DATA = {
   name: "Fauzi Adam",
@@ -27,8 +35,11 @@ export const DATA = {
     "Currently attending [SMK Negeri 2 Yogyakarta](https://www.smk2-yk.sch.id/) as a 12th-grade student majoring in Sistem Informasi Jaringan dan Aplikasi (SIJA), which focuses on building, managing, and securing computer networks, as well as developing software applications. Proficient in frontend technologies such as HTML, CSS, [React](https://react.dev/), [Next.js](https://nextjs.org/), and [Tailwind CSS](http://tailwindcss.com/) for creating responsive user interfaces, and backend technologies like [Laravel](https://laravel.com/) for building servers and APIs, with Postgresql for database management.",
   avatarUrl: "/me.jpg",
   skills: [
+    { name: "HTML", icon: html },
+    { name: "CSS", icon: CSS },
     { name: "React", icon: ReactLight },
     { name: "Next.js", icon: NextjsIconDark },
+    { name: "Vue", icon: Vue },
     { name: "Laravel", icon: Laravel },
     { name: "Typescript", icon: Typescript },
     { name: "Javascript", icon: Javascript },
@@ -39,7 +50,12 @@ export const DATA = {
     { name: "Express", icon: Express },
     { name: "Tailwindcss", icon: Tailwind },
     { name: "Figma", icon: Figma },
+    { name: "Framer", icon: Framer },
     { name: "Postman", icon: Postman },
+    { name: "Github", icon: Github },
+    { name: "Gitlab", icon: Gitlab },
+    { name: "Vercel", icon: Vercel },
+    { name: "Notion", icon: Notion },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
