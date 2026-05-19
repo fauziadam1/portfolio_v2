@@ -11,16 +11,23 @@ import ContactSection from "@/components/section/contact-section";
 import HackathonsSection from "@/components/section/hackathons-section";
 import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Download } from "lucide-react";
 import { GitHubCalendar } from "react-github-calendar";
 import { Tooltip } from "react-tooltip";
-import { cloneElement } from "react";
+import { cloneElement, useEffect, useState } from "react";
 import { useTheme } from "next-themes";
+import { RainbowButton } from "@/components/ui/rainbow-button";
 
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   const { theme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true);
+  }, []);
 
   return (
     <main className="min-h-dvh flex flex-col gap-14 relative">
@@ -39,9 +46,14 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+              <a href="/CV_Fauzi Adam.pdf" download="CV_Fauzi Adam.pdf">
+                <RainbowButton variant="outline" className="w-fit">
+                  My CV <Download />
+                </RainbowButton>
+              </a>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2">
-              <Avatar className="size-24 md:size-32 border rounded-full shadow-lg ring-4 ring-muted">
+              <Avatar className="size-24 md:size-37 border rounded-full shadow-lg ring-4 ring-muted">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
@@ -78,37 +90,47 @@ export default function Page() {
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 6}>
             <div className="w-full">
-              <GitHubCalendar
-                username="fauziadam1"
-                blockSize={8.5}
-                blockMargin={3}
-                fontSize={12}
-                labels={{
-                  totalCount: "{{count}} contributions in the last year",
-                }}
-                theme={{
-                  light: [
-                    "#ebedf0",
-                    "#bfdbfe",
-                    "#60a5fa",
-                    "#2563eb",
-                    "#1d4ed8",
-                  ],
-                  dark: ["#171717", "#0e4429", "#006d32", "#26a641", "#39d353"],
-                }}
-                colorScheme={theme === "dark" ? "dark" : "light"}
-                className="text-muted-foreground stroke-0!"
-                renderBlock={(block, activity) =>
-                  cloneElement(block, {
-                    "data-tooltip-id": "github-tooltip",
-                    "data-tooltip-content": `${activity.date}: ${activity.count} contributions`,
-                  })
-                }
-              />
-              <Tooltip
-                id="github-tooltip"
-                className="bg-background! text-foreground! text-xs! rounded-md! border!"
-              />
+              {mounted && (
+                <>
+                  <GitHubCalendar
+                    username="fauziadam1"
+                    blockSize={8.5}
+                    blockMargin={3}
+                    fontSize={12}
+                    labels={{
+                      totalCount: "{{count}} contributions in the last year",
+                    }}
+                    theme={{
+                      light: [
+                        "#ebedf0",
+                        "#bfdbfe",
+                        "#60a5fa",
+                        "#2563eb",
+                        "#1d4ed8",
+                      ],
+                      dark: [
+                        "#171717",
+                        "#0e4429",
+                        "#006d32",
+                        "#26a641",
+                        "#39d353",
+                      ],
+                    }}
+                    colorScheme={theme === "dark" ? "dark" : "light"}
+                    className="text-muted-foreground stroke-0!"
+                    renderBlock={(block, activity) =>
+                      cloneElement(block, {
+                        "data-tooltip-id": "github-tooltip",
+                        "data-tooltip-content": `${activity.date}: ${activity.count} contributions`,
+                      })
+                    }
+                  />
+                  <Tooltip
+                    id="github-tooltip"
+                    className="bg-background! text-foreground! text-xs! rounded-md! border!"
+                  />
+                </>
+              )}
             </div>
           </BlurFade>
         </div>
