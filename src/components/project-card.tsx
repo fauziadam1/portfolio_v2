@@ -71,7 +71,7 @@ export function ProjectCard({
       mode="orb"
       glowFrom={isDark ? "#ee4f27" : "#E9D5FF"}
       glowTo={isDark ? "#6b21ef" : "#FBCFE8"}
-      className="p-0 h-full rounded-xl border border-border"
+      className="p-0 h-full rounded-xl"
     >
       <div
         className={cn(
