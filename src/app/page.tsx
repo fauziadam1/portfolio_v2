@@ -46,11 +46,13 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
-              <a href="/CV_Fauzi Adam.pdf" download="CV_Fauzi Adam.pdf">
-                <RainbowButton variant="outline" className="w-fit">
-                  My CV <Download />
-                </RainbowButton>
-              </a>
+              <BlurFade delay={BLUR_FADE_DELAY} >
+                <a href="/CV_Fauzi Adam.pdf" download="CV_Fauzi Adam.pdf">
+                  <RainbowButton variant="outline" className="w-fit">
+                    My CV <Download />
+                  </RainbowButton>
+                </a>
+              </BlurFade>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2">
               <Avatar className="size-24 md:size-37 border rounded-full shadow-lg ring-4 ring-muted">
