@@ -375,7 +375,7 @@ export const DATA = {
       location: "SMK Negeri 2 Yogyakarta",
       description:
         "This competition really tested my mental resilience and health, and I also gained a lot of knowledge from the seniors.",
-      image: "/kemendikdasmen.jpg",
+      image: "/Kemendikdasmen.jpg",
       links: [
         {
           title: "Certificate",
