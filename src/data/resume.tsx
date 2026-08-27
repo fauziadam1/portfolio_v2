@@ -355,7 +355,7 @@ export const DATA = {
       ],
     },
     {
-      title: "LKS Web Technologies Tingkat Provinsi Yogyakarta (1st Place)",
+      title: "LKS Web Technologies Tingkat Provinsi Yogyakarta 2026 (1st Place)",
       dates: "7-8 April, 2026",
       location: "SMK Negeri 3 Yogyakarta",
       description:
@@ -366,6 +366,21 @@ export const DATA = {
           title: "Certificate",
           icon: <Icons.globe className="h-4 w-4" />,
           href: "/CertiLKS.pdf",
+        },
+      ],
+    },
+    {
+      title: "Medalion of Experience LKSN Web Technologies 2026 (Daring)",
+      dates: "27-29 July, 2026",
+      location: "SMK Negeri 2 Yogyakarta",
+      description:
+        "This competition really tested my mental resilience and health, and I also gained a lot of knowledge from the seniors.",
+      image: "/kemendikdasmen.jpg",
+      links: [
+        {
+          title: "Certificate",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "/Fauzi Adam MOE.pdf",
         },
       ],
     },
