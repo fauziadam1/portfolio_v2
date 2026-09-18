@@ -26,14 +26,14 @@ import { Framer } from "@/components/ui/svgs/framer";
 export const DATA = {
   name: "Fauzi Adam",
   initials: "FA",
-  url: "https://dillion.io",
+  url: "https://www.fauziadam.my.id/",
   location: "Yogyakarta, Sleman",
   locationLink: "",
   description:
     "Student want to be Programmer and UI/UX Designer. I love make beautiful and perfect website. Currently I am learning about PHP and Laravel framework.",
   summary:
     "Currently attending [SMK Negeri 2 Yogyakarta](https://www.smk2-yk.sch.id/) as a 12th-grade student majoring in Sistem Informasi Jaringan dan Aplikasi (SIJA), which focuses on building, managing, and securing computer networks, as well as developing software applications. Proficient in frontend technologies such as HTML, CSS, [React](https://react.dev/), [Next.js](https://nextjs.org/), and [Tailwind CSS](http://tailwindcss.com/) for creating responsive user interfaces, and backend technologies like [Laravel](https://laravel.com/) for building servers and APIs, with Postgresql for database management.",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/me_2.png",
   skills: [
     { name: "HTML", icon: html },
     { name: "CSS", icon: CSS },
