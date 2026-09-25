@@ -75,65 +75,13 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
-      {/* <section id="work">
+      <section id="work">
         <div className="flex min-h-0 flex-col gap-y-6">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
             <h2 className="text-xl font-bold">Work Experience</h2>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 6}>
             <WorkSection />
-          </BlurFade>
-        </div>
-      </section> */}
-      <section id="github">
-        <div className="flex min-h-0 flex-col gap-y-6">
-          <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold">Github Activity</h2>
-          </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 6}>
-            <div className="w-full">
-              {mounted && (
-                <>
-                  <GitHubCalendar
-                    username="fauziadam1"
-                    blockSize={8.5}
-                    blockMargin={3}
-                    fontSize={12}
-                    labels={{
-                      totalCount: "{{count}} contributions in the last year",
-                    }}
-                    theme={{
-                      light: [
-                        "#ebedf0",
-                        "#bfdbfe",
-                        "#60a5fa",
-                        "#2563eb",
-                        "#1d4ed8",
-                      ],
-                      dark: [
-                        "#171717",
-                        "#0e4429",
-                        "#006d32",
-                        "#26a641",
-                        "#39d353",
-                      ],
-                    }}
-                    colorScheme={theme === "dark" ? "dark" : "light"}
-                    className="text-muted-foreground stroke-0!"
-                    renderBlock={(block, activity) =>
-                      cloneElement(block, {
-                        "data-tooltip-id": "github-tooltip",
-                        "data-tooltip-content": `${activity.date}: ${activity.count} contributions`,
-                      })
-                    }
-                  />
-                  <Tooltip
-                    id="github-tooltip"
-                    className="bg-background! text-foreground! text-xs! rounded-md! border!"
-                  />
-                </>
-              )}
-            </div>
           </BlurFade>
         </div>
       </section>
@@ -186,6 +134,58 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
+        </div>
+      </section>
+      <section id="github">
+        <div className="flex min-h-0 flex-col gap-y-6">
+          <BlurFade delay={BLUR_FADE_DELAY * 5}>
+            <h2 className="text-xl font-bold">Github Activity</h2>
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 6}>
+            <div className="w-full">
+              {mounted && (
+                <>
+                  <GitHubCalendar
+                    username="fauziadam1"
+                    blockSize={8.5}
+                    blockMargin={3}
+                    fontSize={12}
+                    labels={{
+                      totalCount: "{{count}} contributions in the last year",
+                    }}
+                    theme={{
+                      light: [
+                        "#ebedf0",
+                        "#bfdbfe",
+                        "#60a5fa",
+                        "#2563eb",
+                        "#1d4ed8",
+                      ],
+                      dark: [
+                        "#171717",
+                        "#0e4429",
+                        "#006d32",
+                        "#26a641",
+                        "#39d353",
+                      ],
+                    }}
+                    colorScheme={theme === "dark" ? "dark" : "light"}
+                    className="text-muted-foreground stroke-0!"
+                    renderBlock={(block, activity) =>
+                      cloneElement(block, {
+                        "data-tooltip-id": "github-tooltip",
+                        "data-tooltip-content": `${activity.date}: ${activity.count} contributions`,
+                      })
+                    }
+                  />
+                  <Tooltip
+                    id="github-tooltip"
+                    className="bg-background! text-foreground! text-xs! rounded-md! border!"
+                  />
+                </>
+              )}
+            </div>
+          </BlurFade>
         </div>
       </section>
       <section id="skills">
